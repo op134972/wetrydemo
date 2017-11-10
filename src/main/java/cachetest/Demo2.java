@@ -1,4 +1,4 @@
-package CACHETEST;
+package cachetest;
 
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
@@ -73,9 +73,4 @@ public class Demo2 {
          * ref：http://blog.csdn.net/liangrui1988/article/details/46402093
          */
     }
-
-    public static void main(String[] args) {
-
-    }
-
 }

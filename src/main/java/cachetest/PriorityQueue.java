@@ -1,4 +1,4 @@
-package CACHETEST;
+package cachetest;
 
 import com.google.common.cache.*;
 import org.junit.Test;
@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 
-public class Demo1 {
+public class PriorityQueue {
 
     @Test
     public void loadingtest(){
