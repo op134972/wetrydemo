@@ -7,7 +7,7 @@
        http://code.alibabatech.com/schema/dubbo
        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
-    //对应ApplicationConfig,用于计算依赖关系
+    <!--//对应ApplicationConfig,用于计算依赖关系-->
     <dubbo:application name="dubboConsumer" version="1.0.0"/>
 
     <!--     使用multicast广播注册中心暴露发现服务地址 -->
@@ -18,6 +18,4 @@
     <dubbo:consumer registry="zk1"/>
 
     <dubbo:reference id="speaker" interface="com.test.Speaker" group="dubbo"/>
-
-
 </beans>
