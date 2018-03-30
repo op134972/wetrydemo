@@ -7,19 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0738e30e-bf95-4433-84c3-228031b49122" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/resources/spring/spring-dubbo-provider.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wetry-dubbo/dubbo-api/target/classes/com/test/Speaker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wetry-dubbo/dubbo-consumer/target/classes/com/test/Comsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wetry-dubbo/dubbo-provider/target/classes/com/test/Provider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wetry-dubbo/dubbo-provider/target/classes/com/test/SpeakerImpl.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetry-common/target/wetry-common-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/wetry-common/target/wetry-common-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetry-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/wetry-common/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetry-dubbo/dubbo-api/pom.xml" afterPath="$PROJECT_DIR$/wetry-dubbo/dubbo-api/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetry-dubbo/dubbo-consumer/src/main/java/com/test/ConsumerSpring.java" afterPath="$PROJECT_DIR$/wetry-dubbo/dubbo-consumer/src/main/java/com/test/ConsumerSpring.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetry-dubbo/dubbo-consumer/src/main/resources/spring/spring-dubbo-consumer.xml" afterPath="$PROJECT_DIR$/wetry-dubbo/dubbo-consumer/src/main/resources/spring/spring-dubbo-consumer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/java/com/test/ProviderSpring.java" afterPath="$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/java/com/test/ProviderSpring.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/java/com/test/SpeakerImpl.java" afterPath="$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/java/com/test/SpeakerImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/resources/spring/spring-dubbo-provider.xml" afterPath="$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/resources/spring/spring-dubbo-provider.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,8 +38,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="135" column="12" lean-forward="false" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
+            <state relative-caret-position="854">
+              <caret line="123" column="4" lean-forward="false" selection-start-line="123" selection-start-column="4" selection-end-line="135" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -72,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProviderSpring.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProviderSpring.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/java/com/test/ProviderSpring.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
@@ -82,11 +75,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SpeakerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/java/com/test/SpeakerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Provider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/java/com/test/Provider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="427">
+              <caret line="44" column="59" lean-forward="false" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,16 +102,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractApplicationContext.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="521" column="41" lean-forward="false" selection-start-line="521" selection-start-column="41" selection-end-line="521" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -127,18 +120,18 @@
       <file leaf-file-name="spring-dubbo-provider.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/resources/spring/spring-dubbo-provider.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="75" lean-forward="false" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+            <state relative-caret-position="147">
+              <caret line="7" column="97" lean-forward="false" selection-start-line="7" selection-start-column="97" selection-end-line="7" selection-end-column="97" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wetry-dubbo/dubbo-api/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            <state relative-caret-position="294">
+              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -222,17 +215,17 @@
         <option value="$PROJECT_DIR$/wetry-dubbo/dubbo-api/README.md" />
         <option value="$PROJECT_DIR$/wetry-dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/wetry-dubbo/dubbo-api/src/main/java/com/test/Speaker.java" />
-        <option value="$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/java/com/test/SpeakerImpl.java" />
         <option value="$PROJECT_DIR$/wetry-dubbo/dubbo-consumer/src/main/java/com/test/Comsumer.java" />
         <option value="$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/java/com/test/Provider.java" />
         <option value="$PROJECT_DIR$/wetry-dubbo/dubbo-api/src/main/resources/spring/spring-dubbo-consumer.xml" />
         <option value="$PROJECT_DIR$/wetry-dubbo/dubbo-consumer/src/main/resources/spring/dubbo-demo-consumer.xml" />
         <option value="$PROJECT_DIR$/wetry-dubbo/dubbo-consumer/src/main/resources/spring/spring-dubbo-consumer.xml" />
         <option value="$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/java/com/test/ProviderSpring.java" />
-        <option value="$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/resources/spring/spring-dubbo-provider.xml" />
         <option value="$PROJECT_DIR$/wetry-dubbo/dubbo-consumer/src/main/java/com/test/ConsumerSpring.java" />
         <option value="$PROJECT_DIR$/wetry-dubbo/dubbo-api/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/java/com/test/SpeakerImpl.java" />
+        <option value="$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/resources/spring/spring-dubbo-provider.xml" />
       </list>
     </option>
   </component>
@@ -258,7 +251,21 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wetry-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wetry-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -326,8 +333,73 @@
               <item name="wetry-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="wetry-parent" type="462c0819:PsiDirectoryNode" />
               <item name="wetry-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wetry-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wetry-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="wetry-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wetry-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wetry-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="wetry-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wetry-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wetry-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="wetry-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wetry-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wetry-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="wetry-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wetry-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wetry-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="wetry-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wetry-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wetry-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="wetry-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wetry-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wetry-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="wetry-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wetry-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wetry-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="wetry-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -338,10 +410,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -730,7 +802,7 @@
       <workItem from="1514878142061" duration="1569000" />
       <workItem from="1522398915739" duration="2110000" />
       <workItem from="1522401058975" duration="2686000" />
-      <workItem from="1522404809299" duration="12322000" />
+      <workItem from="1522404809299" duration="13652000" />
     </task>
     <task id="LOCAL-00001">
       <created>1508850519725</created>
@@ -775,11 +847,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161632000" />
+    <option name="totallyTimeSpent" value="162962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-1444" width="2505" height="1444" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -800,10 +871,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2620321" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2620321" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33151326" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27043545" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27043545" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22199592" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -913,7 +984,7 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1131,23 +1202,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/java/com/test/SpeakerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wetry-dubbo/dubbo-consumer/src/main/java/com/test/Comsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1195,14 +1255,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/resources/spring/spring-dubbo-provider.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="75" lean-forward="false" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wetry-dubbo/dubbo-consumer/src/main/java/com/test/ConsumerSpring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1211,36 +1263,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/java/com/test/ProviderSpring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/java/com/test/Provider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wetry-dubbo/dubbo-api/src/main/java/com/test/Speaker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="135" column="12" lean-forward="false" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1255,8 +1281,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wetry-dubbo/dubbo-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        <state relative-caret-position="294">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="854">
+          <caret line="123" column="4" lean-forward="false" selection-start-line="123" selection-start-column="4" selection-end-line="135" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/java/com/test/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="44" column="59" lean-forward="false" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/java/com/test/SpeakerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/resources/spring/spring-dubbo-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="97" lean-forward="false" selection-start-line="7" selection-start-column="97" selection-end-line="7" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wetry-dubbo/dubbo-provider/src/main/java/com/test/ProviderSpring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1320,7 +1388,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
