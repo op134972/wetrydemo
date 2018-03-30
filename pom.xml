@@ -5,9 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
 
-    <groupId>LocalDemo</groupId>
-    <artifactId>LocalDemo</artifactId>
+    <groupId>com.wetry</groupId>
+    <artifactId>wetry-parent</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>wetry-dubbo</module>
+        <module>wetry-common</module>
+    </modules>
 
 
     <dependencies>

@@ -2,10 +2,10 @@
   <artifact type="war" build-on-make="true" name="LocalDemo:Web exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/LocalDemo_Web_exploded</output-path>
     <root id="archive" name="LocalDemo_Web exploded.war">
-      <element id="javaee-facet-resources" facet="LocalDemo/web/Web" />
+      <element id="javaee-facet-resources" facet="wetry-parent/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="LocalDemo" />
+          <element id="module-output" name="wetry-parent" />
         </element>
       </element>
       <element id="dir-copy" path="/opt/apache-tomcat-8.5.23/webapps/ROOT" />

@@ -3,6 +3,7 @@ package demo1;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.regex.Pattern;
 
@@ -24,5 +25,9 @@ public class Demo5 {
 //        }
 
         System.out.println(isPhoneNo("12478558554"));
+
+
+        Date d = new Date();
+        System.out.println(d.getTime());
     }
 }

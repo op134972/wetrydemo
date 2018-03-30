@@ -4,7 +4,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="LocalDemo" />
+          <element id="module-output" name="wetry-parent" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: cn.techwolf:techwolf-boss-push-service-def:1.1.547" />
@@ -150,7 +150,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/boss-admin-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="LocalDemo/web/Web" />
+      <element id="javaee-facet-resources" facet="wetry-parent/web/Web" />
     </root>
   </artifact>
 </component>
