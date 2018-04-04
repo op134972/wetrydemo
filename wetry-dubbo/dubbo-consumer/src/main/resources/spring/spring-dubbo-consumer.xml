@@ -18,4 +18,5 @@
     <dubbo:consumer registry="zk1"/>
 
     <dubbo:reference id="speaker" interface="com.test.Speaker" group="dubbo"/>
+    <dubbo:reference id="apiTest" interface="com.test.api.ApiTest" group="dubbo"/>
 </beans>
