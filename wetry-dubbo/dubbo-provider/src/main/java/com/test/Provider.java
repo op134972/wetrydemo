@@ -4,6 +4,8 @@ import com.alibaba.dubbo.config.ApplicationConfig;
 import com.alibaba.dubbo.config.ProtocolConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
 import com.alibaba.dubbo.config.ServiceConfig;
+import com.test.api.ApiTest;
+import com.test.impl.ApiTestImpl;
 
 /**
  * Created by wch on 18-3-30.
@@ -24,6 +26,7 @@ public class Provider {
 
         //服务实现
         Speaker speaker = new SpeakerImpl();
+        ApiTest apiTest = new ApiTestImpl();
 
         //当前应用的配置
         ApplicationConfig application = new ApplicationConfig();
@@ -51,8 +54,18 @@ public class Provider {
         service.setVersion("1.0.0");
         service.setGroup("dubbo");
 
+        //服务2
+        ServiceConfig<ApiTest> apiTestServiceConfig = new ServiceConfig<>();
+        apiTestServiceConfig.setApplication(application);
+        apiTestServiceConfig.setRegistry(registryConfig);
+        apiTestServiceConfig.setProtocol(protocolConfig);
+        apiTestServiceConfig.setInterface(ApiTest.class);
+        apiTestServiceConfig.setRef(apiTest);
+        apiTestServiceConfig.setVersion("1.0.0");
+        apiTestServiceConfig.setGroup("dubbo");
         //暴露出去
         service.export();
+        apiTestServiceConfig.export();
 
         System.out.println("provider started...");
         //挂起当前线程，一直暴露

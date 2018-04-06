@@ -24,7 +24,7 @@ public class ConsumerSpring {
         ClassA ca = new ClassA();
         ca.setBirthDay(new Date());
         ApiTest apiTest = (ApiTest) context.getBean("apiTest", ApiTest.class);
-        for (int i = 0; i < 100000; i++) {
+        for (int i = 0; i < 100; i++) {
             apiTest.method(ca);
             System.out.println(ca);
         }

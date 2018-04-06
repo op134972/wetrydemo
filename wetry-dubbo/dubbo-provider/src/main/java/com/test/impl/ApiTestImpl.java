@@ -36,4 +36,19 @@ public class ApiTestImpl implements ApiTest {
 
         System.out.println("set done..");
     }
+
+    @Override
+    public String say2(String s) throws InterruptedException {
+
+        Thread.sleep(1000);
+        return s;
+    }
+
+    @Override
+    public String say(String words) throws InterruptedException {
+        Thread.sleep(1000);
+
+        System.out.println(words);
+        return words;
+    }
 }

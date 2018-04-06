@@ -1,3 +1,4 @@
-com/test/ProviderSpring.class
-com/test/Provider.class
-com/test/SpeakerImpl.class
+com\test\ProviderSpring.class
+com\test\impl\ApiTestImpl.class
+com\test\Provider.class
+com\test\SpeakerImpl.class
