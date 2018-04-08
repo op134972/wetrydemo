@@ -9,4 +9,7 @@ public interface ApiTest {
 
     public void method(ClassA classA);
 
+    public String say(String words) throws InterruptedException;
+
+    public String say2(String s) throws InterruptedException;
 }
