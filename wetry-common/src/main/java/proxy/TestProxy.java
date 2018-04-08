@@ -11,9 +11,9 @@ public class TestProxy {
     public static void main(String[] args) {
         Speaker speaker = new Student();
 
-        ProxyFactory proxyFactory = new ProxyFactory(speaker);
+        JdkProxyFactory jdkProxyFactory = new JdkProxyFactory(speaker);
 
-        Speaker proxtInstance = (Speaker) proxyFactory.getProxtInstance();
+        Speaker proxtInstance = (Speaker) jdkProxyFactory.getProxtInstance();
 
         System.out.println(proxtInstance.getClass());
 

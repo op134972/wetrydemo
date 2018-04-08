@@ -7,11 +7,11 @@ import java.lang.reflect.Proxy;
 /**
  * Created by tangwc on 2018/4/6.
  */
-public class ProxyFactory {
+public class JdkProxyFactory {
 
     private Object target;
 
-    ProxyFactory(Object target) {
+    JdkProxyFactory(Object target) {
         this.target = target;
     }
 
