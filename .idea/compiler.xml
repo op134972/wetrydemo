@@ -11,6 +11,7 @@
         <module name="dubbo-provider" />
         <module name="simpledubbo" />
         <module name="wetry-common" />
+        <module name="wetry-springboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -24,6 +25,7 @@
       <module name="wetry-common" target="1.8" />
       <module name="wetry-dubbo" target="1.8" />
       <module name="wetry-parent" target="1.8" />
+      <module name="wetry-springboot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
