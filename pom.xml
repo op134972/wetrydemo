@@ -13,6 +13,7 @@
         <module>wetry-common</module>
         <module>wetry-dubbo</module>
         <module>wetry-springboot</module>
+        <module>wetry-jedis</module>
     </modules>
 
     <!--spring boot-->

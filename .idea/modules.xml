@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/wetry-common/wetry-common.iml" filepath="$PROJECT_DIR$/wetry-common/wetry-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/wetry-dubbo/wetry-dubbo.iml" filepath="$PROJECT_DIR$/wetry-dubbo/wetry-dubbo.iml" />
       <module fileurl="file://F:/Projects/wetrydemo/wetry-dubbo/wetry-dubbo-api.iml" filepath="F:/Projects/wetrydemo/wetry-dubbo/wetry-dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wetry-jedis/wetry-jedis.iml" filepath="$PROJECT_DIR$/wetry-jedis/wetry-jedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/wetry-parent.iml" filepath="$PROJECT_DIR$/wetry-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/wetry-springboot/wetry-springboot.iml" filepath="$PROJECT_DIR$/wetry-springboot/wetry-springboot.iml" />
     </modules>
