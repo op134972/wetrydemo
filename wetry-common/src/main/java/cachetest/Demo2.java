@@ -6,10 +6,7 @@ import com.google.common.cache.CacheLoader;
 import com.google.common.cache.LoadingCache;
 import org.junit.Test;
 
-import java.util.concurrent.Callable;
-import java.util.concurrent.ConcurrentMap;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
 public class Demo2 {
 
@@ -72,5 +69,12 @@ public class Demo2 {
          * Cache中的一些方法：
          * ref：http://blog.csdn.net/liangrui1988/article/details/46402093
          */
+    }
+
+
+    public static void main(String[] args) throws InterruptedException {
+        while (true) {
+
+        }
     }
 }

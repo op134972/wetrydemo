@@ -7,7 +7,9 @@
     <file url="file://$PROJECT_DIR$/wetry-dubbo/dubbo-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wetry-dubbo/dubbo-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wetry-dubbo/dubbo-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wetry-jdk" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wetry-jedis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wetry-mongodb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wetry-springboot" charset="UTF-8" />
   </component>
 </project>

@@ -14,6 +14,8 @@
         <module>wetry-dubbo</module>
         <module>wetry-springboot</module>
         <module>wetry-jedis</module>
+        <module>wetry-jdk</module>
+        <module>wetry-mongodb</module>
     </modules>
 
     <!--spring boot-->
