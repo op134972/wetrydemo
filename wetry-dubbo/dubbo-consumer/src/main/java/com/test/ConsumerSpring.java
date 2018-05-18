@@ -1,6 +1,7 @@
 package com.test;
 
 import com.test.api.ApiTest;
+import com.test.api.Speaker;
 import com.test.model.ClassA;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

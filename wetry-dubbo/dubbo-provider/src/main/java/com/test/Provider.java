@@ -5,7 +5,9 @@ import com.alibaba.dubbo.config.ProtocolConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
 import com.alibaba.dubbo.config.ServiceConfig;
 import com.test.api.ApiTest;
+import com.test.api.Speaker;
 import com.test.impl.ApiTestImpl;
+import com.test.impl.SpeakerImpl;
 
 /**
  * Created by wch on 18-3-30.

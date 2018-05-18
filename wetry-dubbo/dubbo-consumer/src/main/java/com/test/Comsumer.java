@@ -3,6 +3,7 @@ package com.test;
 import com.alibaba.dubbo.config.ApplicationConfig;
 import com.alibaba.dubbo.config.ReferenceConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
+import com.test.api.Speaker;
 
 /**
  * Created by wch on 18-3-30.

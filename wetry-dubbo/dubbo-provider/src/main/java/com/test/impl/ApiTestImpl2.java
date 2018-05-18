@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * Created by wch on 18-5-16.
+ * spring boot 方式
  */
 @Service(interfaceClass = ApiTest.class, group = "dubbo", version = "1.0.0")
 @Component

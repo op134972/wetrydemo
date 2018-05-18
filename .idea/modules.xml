@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/wetry-jdk/wetry-jdk.iml" filepath="$PROJECT_DIR$/wetry-jdk/wetry-jdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/wetry-jedis/wetry-jedis.iml" filepath="$PROJECT_DIR$/wetry-jedis/wetry-jedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/wetry-mongodb/wetry-mongodb.iml" filepath="$PROJECT_DIR$/wetry-mongodb/wetry-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wetry-nio/wetry-nio.iml" filepath="$PROJECT_DIR$/wetry-nio/wetry-nio.iml" />
       <module fileurl="file://$PROJECT_DIR$/wetry-parent.iml" filepath="$PROJECT_DIR$/wetry-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/wetry-springboot/wetry-springboot.iml" filepath="$PROJECT_DIR$/wetry-springboot/wetry-springboot.iml" />
     </modules>

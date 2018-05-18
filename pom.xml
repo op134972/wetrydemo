@@ -16,6 +16,7 @@
         <module>wetry-jedis</module>
         <module>wetry-jdk</module>
         <module>wetry-mongodb</module>
+        <module>wetry-nio</module>
     </modules>
 
     <!--spring boot-->
@@ -171,16 +172,16 @@
         <!--</dependency>-->
 
         <!--spring boot-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-web</artifactId>-->
+        <!--</dependency>-->
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-properties-migrator</artifactId>
-            <scope>runtime</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-properties-migrator</artifactId>-->
+            <!--<scope>runtime</scope>-->
+        <!--</dependency>-->
     </dependencies>
 
     <!--<build>-->

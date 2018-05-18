@@ -1,4 +1,6 @@
-package com.test;
+package com.test.impl;
+
+import com.test.api.Speaker;
 
 /**
  * Created by wch on 18-3-30.

@@ -10,7 +10,7 @@
     <context:component-scan base-package="com.test"/>
 
 
-    <bean id="speaker" class="com.test.SpeakerImpl"/>
+    <bean id="speaker" class="com.test.impl.SpeakerImpl"/>
     <!--<bean id="apiTest" class="com.test.impl.ApiTestImpl"/>-->
 
     <dubbo:application name="dubboProvider"/>
@@ -19,6 +19,6 @@
 
     <dubbo:protocol name="dubbo" port="20880"/>
 
-    <dubbo:service interface="com.test.Speaker" group="dubbo" ref="speaker"/>
+    <dubbo:service interface="com.test.api.Speaker" group="dubbo" ref="speaker"/>
     <dubbo:service interface="com.test.api.ApiTest" group="dubbo" ref="apiTest"/>
 </beans>

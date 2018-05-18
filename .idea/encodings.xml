@@ -10,6 +10,7 @@
     <file url="file://$PROJECT_DIR$/wetry-jdk" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wetry-jedis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wetry-mongodb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wetry-nio" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wetry-springboot" charset="UTF-8" />
   </component>
 </project>

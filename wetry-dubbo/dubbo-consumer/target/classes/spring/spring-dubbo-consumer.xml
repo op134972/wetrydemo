@@ -17,6 +17,6 @@
     <!--多个注册中心的时候使用，这里指定的是zk1-->
     <dubbo:consumer registry="zk1"/>
 
-    <dubbo:reference id="speaker" interface="com.test.Speaker" group="dubbo"/>
+    <dubbo:reference id="speaker" interface="com.test.api.Speaker" group="dubbo"/>
     <dubbo:reference id="apiTest" interface="com.test.api.ApiTest" group="dubbo"/>
 </beans>
