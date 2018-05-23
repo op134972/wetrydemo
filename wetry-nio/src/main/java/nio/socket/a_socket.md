@@ -1,0 +1,5 @@
+socket 也是一种通道
+全部通道类有：
+DatagramChannel
+SocketChannel
+ServerSocketChannel
