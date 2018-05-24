@@ -1,4 +1,4 @@
-package nio.channel;
+package nio.socket;
 
 import java.io.IOException;
 import java.net.DatagramPacket;

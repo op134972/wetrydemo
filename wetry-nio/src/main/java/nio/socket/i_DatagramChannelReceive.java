@@ -1,4 +1,4 @@
-package nio.channel;
+package nio.socket;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
@@ -20,11 +20,9 @@ public class i_DatagramChannelReceive {
 
         DatagramSocket socket = datagramChannel.socket();
 
-        socket.bind(new InetSocketAddress("localhost", 1234));
-
         byte[] bytes = "hello".getBytes();
 
-        //每个包可以指定一个地址
+        //每个包可以指定一个地址，多次连接或者断开
         socket.send(new DatagramPacket(bytes, bytes.length,new InetSocketAddress("localhost",1234)));
     }
 }
