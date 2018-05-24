@@ -2,6 +2,7 @@ package nio.channel;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
+import java.net.URLConnection;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 
@@ -29,5 +30,7 @@ public class c_MappedByteBuffer {
         map.put("h".getBytes());
 
         System.out.println(map.get());
+
+        URLConnection.guessContentTypeFromName("");
     }
 }
