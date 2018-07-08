@@ -1,4 +1,4 @@
-package nio.e_pipe;
+package nio.e.pipe;
 
 import java.io.IOException;
 import java.nio.channels.Pipe;
