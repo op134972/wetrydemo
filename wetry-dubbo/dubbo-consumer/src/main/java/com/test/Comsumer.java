@@ -36,7 +36,7 @@ public class Comsumer {
         referenceConfig.setRegistry(registryConfig);// 多个注册中心 使用setRegistries
         referenceConfig.setInterface(Speaker.class);
         referenceConfig.setVersion("1.0.0");
-        referenceConfig.setGroup("dubbo");
+        referenceConfig.setGroup("group1");
 
         //和本地bean一样使用服务
         Speaker speaker = referenceConfig.get();

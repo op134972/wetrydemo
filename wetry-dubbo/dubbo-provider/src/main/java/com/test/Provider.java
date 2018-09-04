@@ -54,7 +54,7 @@ public class Provider {
         service.setInterface(Speaker.class);
         service.setRef(speaker);
         service.setVersion("1.0.0");
-        service.setGroup("dubbo");
+        service.setGroup("group1");
 
         //服务2
         ServiceConfig<ApiTest> apiTestServiceConfig = new ServiceConfig<>();
@@ -67,7 +67,7 @@ public class Provider {
         apiTestServiceConfig.setGroup("dubbo");
         //暴露出去
         service.export();
-        apiTestServiceConfig.export();
+//        apiTestServiceConfig.export();
 
         System.out.println("provider started...");
         //挂起当前线程，一直暴露
