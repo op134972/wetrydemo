@@ -10,13 +10,5 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>wetry-common</artifactId>
-    <dependencies>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>dubbo</artifactId>
-            <version>RELEASE</version>
-        </dependency>
-    </dependencies>
-
 
 </project>
