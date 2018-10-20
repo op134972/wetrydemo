@@ -1,12 +1,12 @@
 package producer;
 
 
-import com.alibaba.rocketmq.client.exception.MQBrokerException;
-import com.alibaba.rocketmq.client.exception.MQClientException;
-import com.alibaba.rocketmq.client.producer.DefaultMQProducer;
-import com.alibaba.rocketmq.client.producer.SendResult;
-import com.alibaba.rocketmq.common.message.Message;
-import com.alibaba.rocketmq.remoting.exception.RemotingException;
+import org.apache.rocketmq.client.exception.MQBrokerException;
+import org.apache.rocketmq.client.exception.MQClientException;
+import org.apache.rocketmq.client.producer.DefaultMQProducer;
+import org.apache.rocketmq.client.producer.SendResult;
+import org.apache.rocketmq.common.message.Message;
+import org.apache.rocketmq.remoting.exception.RemotingException;
 
 /**
  * Created by wch on 18-8-23.
@@ -14,13 +14,17 @@ import com.alibaba.rocketmq.remoting.exception.RemotingException;
  */
 public class Producer {
     public static void main(String[] args) throws MQClientException, RemotingException, InterruptedException, MQBrokerException {
-        DefaultMQProducer producer = new DefaultMQProducer("group_name");
+        DefaultMQProducer producer = new DefaultMQProducer("group_name");//group_name
         producer.setNamesrvAddr("172.16.27.254:9876");
         try {
             producer.start();
             for (int i = 0; i < 100; i++) {
                 // create a message , specify topic,tag and message.
-                Message msg = new Message("TopicTest", "TagTest", ("hello rmq" + i).getBytes());
+                Message msg = new Message(
+                        "TopicTest",//topic
+                        "TagTest", //tags
+                        ("hello rmq" + i).getBytes()//消息实体
+                );
                 SendResult sendRes = producer.send(msg);
                 System.out.println(sendRes);
             }

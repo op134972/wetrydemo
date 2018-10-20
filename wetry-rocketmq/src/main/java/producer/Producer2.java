@@ -19,6 +19,7 @@ public class Producer2 {
             producer.start();
             for (int i = 0; i < 100; i++) {
                 Message msg = new Message("TopicTest", "TagTest", ("hello mq" + i).getBytes());
+                //不会阻塞
                 producer.send(msg, new SendCallback() {
                     @Override
                     public void onSuccess(SendResult sendResult) {
@@ -33,6 +34,5 @@ public class Producer2 {
         } finally {
             producer.shutdown();
         }
-
     }
 }
