@@ -1,12 +1,13 @@
 package consumer;
 
-import com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer;
-import com.alibaba.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;
-import com.alibaba.rocketmq.client.consumer.listener.ConsumeConcurrentlyStatus;
-import com.alibaba.rocketmq.client.consumer.listener.MessageListenerConcurrently;
-import com.alibaba.rocketmq.client.exception.MQClientException;
-import com.alibaba.rocketmq.common.consumer.ConsumeFromWhere;
-import com.alibaba.rocketmq.common.message.MessageExt;
+import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
+import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;
+import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyStatus;
+import org.apache.rocketmq.client.consumer.listener.MessageListenerConcurrently;
+import org.apache.rocketmq.client.exception.MQClientException;
+import org.apache.rocketmq.common.consumer.ConsumeFromWhere;
+import org.apache.rocketmq.common.filter.MessageFilter;
+import org.apache.rocketmq.common.message.MessageExt;
 
 import java.util.List;
 
@@ -30,6 +31,8 @@ public class Consumer {
 
         //设置consumer所订阅的Topic和Tag，*代表全部的Tag
         consumer.subscribe("TopicTest", "*");
+
+        consumer.subscribe("TopicTest", MessageFilter.class.getCanonicalName());
 
         //设置一个Listener，主要进行消息的逻辑处理
         consumer.registerMessageListener(new MessageListenerConcurrently() {
