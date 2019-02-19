@@ -28,7 +28,7 @@ public class Provider {
 
         //服务实现
         Speaker speaker = new SpeakerImpl();
-        ApiTest apiTest = new ApiTestImpl();
+//        ApiTest apiTest = new ApiTestImpl();
 
         //当前应用的配置
         ApplicationConfig application = new ApplicationConfig();
@@ -54,20 +54,20 @@ public class Provider {
         service.setInterface(Speaker.class);
         service.setRef(speaker);
         service.setVersion("1.0.0");
-        service.setGroup("dubbo");
+        service.setGroup("group1");
 
-        //服务2
-        ServiceConfig<ApiTest> apiTestServiceConfig = new ServiceConfig<>();
-        apiTestServiceConfig.setApplication(application);
-        apiTestServiceConfig.setRegistry(registryConfig);
-        apiTestServiceConfig.setProtocol(protocolConfig);
-        apiTestServiceConfig.setInterface(ApiTest.class);
-        apiTestServiceConfig.setRef(apiTest);
-        apiTestServiceConfig.setVersion("1.0.0");
-        apiTestServiceConfig.setGroup("dubbo");
+//        //服务2
+//        ServiceConfig<ApiTest> apiTestServiceConfig = new ServiceConfig<>();
+//        apiTestServiceConfig.setApplication(application);
+//        apiTestServiceConfig.setRegistry(registryConfig);
+//        apiTestServiceConfig.setProtocol(protocolConfig);
+//        apiTestServiceConfig.setInterface(ApiTest.class);
+//        apiTestServiceConfig.setRef(apiTest);
+//        apiTestServiceConfig.setVersion("1.0.0");
+//        apiTestServiceConfig.setGroup("dubbo");
         //暴露出去
         service.export();
-        apiTestServiceConfig.export();
+//        apiTestServiceConfig.export();
 
         System.out.println("provider started...");
         //挂起当前线程，一直暴露

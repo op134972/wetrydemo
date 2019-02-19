@@ -13,6 +13,8 @@
 
     <dubbo:registry address="zookeeper://127.0.0.1:2181" id="zk1"/>
 
+    <dubbo:provider registry="zkl"/>
+
     <dubbo:protocol name="dubbo" port="20880"/>
 
     <dubbo:service interface="com.test.api.Speaker" group="dubbo" ref="speaker"/>
