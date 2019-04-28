@@ -1,23 +1,37 @@
 package structure;
 
+import java.util.Arrays;
+
+/**
+ * 自己实现一个优点队列
+ */
 public class PriorityQueue {
 
     public static void main(String[] args) {
         PriorityQueue queue = new PriorityQueue();
         queue.offer(2);
         queue.offer(3);
-        queue.offer(1);
+        queue.offer(21);
+        queue.offer(32);
+        queue.offer(14);
+        queue.offer(12);
+        queue.offer(9);
+        queue.offer(239);
 
-        System.out.println(queue.poll());
+        System.out.println(Arrays.toString(queue.getArr()));
     }
 
-    private static int[] arr;
+    private int[] arr;
 
     private int size;
     private static final int INITIAL_CAPACITY = 10;
 
     PriorityQueue() {
         this.arr = new int[INITIAL_CAPACITY];
+    }
+
+    public int[] getArr() {
+        return this.arr;
     }
 
     private void percDown(int[] arr, int hole, int end) {
