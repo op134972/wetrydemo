@@ -1,5 +1,6 @@
 package demo1;
 
+import java.math.BigDecimal;
 import java.util.Arrays;
 
 public class BinInsert {
@@ -43,5 +44,11 @@ public class BinInsert {
         int[] arr = {3, 4, 5, 2, 5, 34, 21, 1};
         is(arr);
         System.out.println(Arrays.toString(arr));
+
+
+        double d = new BigDecimal(0)
+                .divide(new BigDecimal(98), 3, BigDecimal.ROUND_CEILING).doubleValue() * 100;
+        String format = String.format("%.1f", d);
+        System.out.println(d+":"+format);
     }
 }

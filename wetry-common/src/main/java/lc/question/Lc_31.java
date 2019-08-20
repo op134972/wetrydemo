@@ -1,6 +1,9 @@
 package lc.question;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * @Author: tangwenchuan
@@ -19,21 +22,46 @@ import java.util.Arrays;
  * 13222  21223
  * 14652    21456
  * 230241  230412
+ * 15432 21345
  */
 public class Lc_31 {
 
 
+    /**
+     * 成功
+     * 显示详情
+     * 执行用时 : 3 ms, 在Next Permutation的Java提交中击败了68.74% 的用户
+     * 内存消耗 : 36.5 MB, 在Next Permutation的Java提交中击败了89.88% 的用户
+     */
     public void nextPermutation(int[] nums) {
 
         for (int i = nums.length - 1; i >= 0; i--) {
-            int lessIndex = lessCharIndex(i, nums);
+            //从后往前找大于当前位的最小元素下标返回(第一次出现的下标)
+            int lessIndex = findSecondBiggerElement(i, nums);
             if (lessIndex != -1) {
+                //如果有，交换，并将后面的元素小序排列
                 exchangeEle(i, lessIndex, nums);
-                subSort(nums, lessIndex);
+                subSort(nums, i);
                 return;
             }
         }
+        //没有说明原始序列是降序，全部翻转
         reverseArr(nums);
+    }
+
+    private int findSecondBiggerElement(int startIndex, int[] nums) {
+        if (startIndex == nums.length - 1) {
+            return -1;
+        }
+        int secondBig = Integer.MAX_VALUE;
+        int res = -1;
+        for (int i = startIndex+1; i < nums.length; i++) {
+            if (nums[i] < secondBig && nums[i] > nums[startIndex]) {
+                secondBig = nums[i];
+                res = i;
+            }
+        }
+        return res;
     }
 
     private void subSort(int[] nums, int endIndex) {
@@ -58,25 +86,32 @@ public class Lc_31 {
         nums[i2] = temp;
     }
 
-    private int lessCharIndex(int targetI, int[] nums) {
-        int target = nums[targetI];
-        for (int i = targetI-1; i >= 0; i--) {
-            int num = nums[i];
-            if (num >= target) {
-                return -1;
-            } else{
-                return i;
-            }
+    public static void main(String[] args) {
+        List<String> tests = Arrays.asList("1,2,3","3,2,1","1,5,4,3,2","1,3,2,2,2","1,2,5","5,2,1,6,3","1,1,2,3,1,2,5","1,1,1,3,3,3");
+        int[][] arrs = new int[100][];
+        for (int i = 0; i < tests.size(); i++) {
+            String s = tests.get(i);
+            String[] split = StringUtils.split(s, ",");
+            arrs[i] = transFroMStr(split);
         }
-        return -1;
+
+        for (int[] arr : arrs) {
+
+            System.out.print("before:" + Arrays.toString(arr));
+            Lc_31 obj = new Lc_31();
+            obj.nextPermutation(arr);
+
+            System.out.println("after:"+Arrays.toString(arr));
+
+        }
     }
 
-    public static void main(String[] args) {
-        int[] arr = {1,3,2,2,2};
-        Lc_31 obj = new Lc_31();
-        obj.nextPermutation(arr);
-
-        System.out.println(Arrays.toString(arr));
+    private static int[] transFroMStr(String[] split) {
+        int[] res = new int[split.length];
+        for (int i = 0; i < split.length; i++) {
+            res[i] = Integer.valueOf(split[i]);
+        }
+        return res;
     }
 
 }

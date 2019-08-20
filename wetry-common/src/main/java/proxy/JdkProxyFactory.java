@@ -6,6 +6,8 @@ import java.lang.reflect.Proxy;
 
 /**
  * Created by tangwc on 2018/4/6.
+ *
+ * JDK动态代理
  */
 public class JdkProxyFactory {
 
