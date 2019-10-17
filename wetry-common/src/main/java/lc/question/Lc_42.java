@@ -4,7 +4,7 @@ package lc.question;
  * @Author: tangwenchuan
  * @Date: 2019-08-19 21:40
  */
-public class Lc_48 {
+public class Lc_42 {
 
 
     /**
@@ -45,6 +45,6 @@ public class Lc_48 {
 
     public static void main(String[] args) {
         int[] arr = {0,1,0,2,1,0,1,3,2,1,2,1};
-        System.out.println(new Lc_48().fun(arr));
+        System.out.println(new Lc_42().fun(arr));
     }
 }
