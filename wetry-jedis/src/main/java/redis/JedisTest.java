@@ -18,5 +18,7 @@ public class JedisTest {
         jedis.set("one","1");
 
         System.out.println(jedis.get("one"));
+
+
     }
 }
