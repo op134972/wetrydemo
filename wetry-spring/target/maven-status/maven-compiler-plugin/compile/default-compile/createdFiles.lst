@@ -1,3 +1,3 @@
-controller/TestController.class
-service/impl/SpeakerImpl.class
-service/Speaker.class
+service\impl\SpeakerImpl.class
+controller\TestController.class
+service\Speaker.class

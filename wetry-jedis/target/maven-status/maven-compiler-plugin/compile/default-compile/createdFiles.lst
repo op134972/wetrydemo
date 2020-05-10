@@ -1,1 +1,2 @@
-redis/JedisTest.class
+redis\HyperLog.class
+redis\JedisTest.class
