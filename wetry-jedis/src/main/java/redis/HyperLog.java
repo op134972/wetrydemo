@@ -12,5 +12,12 @@ public class HyperLog {
         Jedis jedis = new Jedis("127.0.0.1",6379);
 
 
+        System.out.println(jedis);
+
+        System.out.println(jedis.keys("*"));
+
+        System.out.println(jedis.set("abc", "1"));
+        System.out.println(jedis.get("abc"));
+
     }
 }

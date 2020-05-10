@@ -23,6 +23,7 @@
         <module>wetry-stresstest</module>
         <module>wetry-trvip</module>
         <module>wetry-mybatis</module>
+        <module>wetry-netty</module>
     </modules>
 
     <!--spring boot-->
@@ -145,6 +146,11 @@
             <version>4.0.2</version>
         </dependency>
 
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.6.Final</version>
+        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper -->
         <dependency>
