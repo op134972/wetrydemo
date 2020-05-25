@@ -19,12 +19,14 @@ public class c_MeterTest {
     public static void main(String[] args) throws InterruptedException {
         MetricRegistry registry = new MetricRegistry();
         meter = registry.meter(MetricRegistry.name(c_MeterTest.class));
-        ConsoleReporter reporter = ConsoleReporter.forRegistry(registry).build();
+        ConsoleReporter reporter = ConsoleReporter.forRegistry(registry)
+                .convertDurationsTo(TimeUnit.MILLISECONDS)
+                .build();
         reporter.start(1, TimeUnit.SECONDS);
 
 
         while (true) {
-            Thread.sleep(10);
+            Thread.sleep(1);
             fun();
         }
 

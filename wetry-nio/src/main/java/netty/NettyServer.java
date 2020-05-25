@@ -36,9 +36,7 @@ public class NettyServer {
                     }
                 });
 
-        serverBootstrap.
-
-        bind(serverBootstrap, 1000);
+        serverBootstrap.bind(8888);
 
 
     }

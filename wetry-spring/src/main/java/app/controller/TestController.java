@@ -1,4 +1,4 @@
-package controller;
+package app.controller;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import service.Speaker;
