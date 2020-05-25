@@ -21,7 +21,8 @@
         <module>wetry-json</module>
         <module>wetry-metrics</module>
         <module>wetry-stresstest</module>
-        <module>wetry-netty</module>
+        <module>wetry-trvip</module>
+        <module>wetry-mybatis</module>
         <module>wetry-netty</module>
     </modules>
 
@@ -151,6 +152,13 @@
             <version>4.1.6.Final</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper -->
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.4.14</version>
+            <type>pom</type>
+        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
         <dependency>
