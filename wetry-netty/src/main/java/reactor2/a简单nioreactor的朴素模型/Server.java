@@ -36,9 +36,6 @@ public class Server {
         // 5、将通道注册到选择器上,并注册的操作为：“接收”操作
         serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
 
-        //阻塞的方法
-        System.out.println("register...");
-
         // 6、采用轮询的方式，查询获取“准备就绪”的注册过的操作
         while (selector.select() > 0) {
             // 7、获取当前选择器中所有注册的选择键（“已经准备就绪的操作”）
@@ -75,10 +72,8 @@ public class Server {
                 // 15、移除选择键
                 selectedKeys.remove();
 
-                System.out.println("while 2");
             }
 
-            System.out.println("while 1");
         }
 
         // 7、关闭连接

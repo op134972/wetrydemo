@@ -36,15 +36,23 @@ public class BasicModel implements Runnable {
         public void run() {
             try {
                 byte[] input = new byte[1024];
-                socket.getInputStream().read(input);
-                byte[] output = process(input);
-                socket.getOutputStream().write(output);
+                int length = 0;
+                while ((length = socket.getInputStream().read(input)) != -1) {
+                    System.out.println(new String(input, 0, length));
+                    input = new byte[1024];
+                }
             } catch (IOException ex) { /* ... */ }
         }
-        private byte[] process(byte[] input) {
-            byte[] output=null;
+        private byte[] process(byte[] input, int length) {
+            System.out.println("receive：" + new String(input));
+
+            byte[] output = "ack".getBytes();
             /* ... */
             return output;
         }
+    }
+
+    public static void main(String[] args) {
+        new BasicModel().run();
     }
 }
