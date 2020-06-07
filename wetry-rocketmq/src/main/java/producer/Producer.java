@@ -15,7 +15,7 @@ import org.apache.rocketmq.remoting.exception.RemotingException;
 public class Producer {
     public static void main(String[] args) throws MQClientException, RemotingException, InterruptedException, MQBrokerException {
         DefaultMQProducer producer = new DefaultMQProducer("group_name");//group_name
-        producer.setNamesrvAddr("127.0.0.1:9876");
+        producer.setNamesrvAddr("172.16.26.193:9876");
         try {
             producer.start();
             for (int i = 0; i < 100; i++) {
