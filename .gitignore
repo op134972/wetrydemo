@@ -37,6 +37,7 @@ disconf
 *.iml
 *.ipr
 .idea/*.xml
+*.class
 
 ### NetBeans ###
 /nbproject/private/

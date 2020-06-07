@@ -1,7 +1,5 @@
 package lc.util;
 
-import java.util.Arrays;
-
 /**
  * @Author: tangwenchuan
  * @Date: 2020-05-27 21:57
@@ -14,7 +12,10 @@ public class ArrayUtils {
             return;
         }
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(Arrays.toString(arr[i]));
+            for (int j = 0; j < arr[0].length; j++) {
+                System.out.print(arr[i][j] + "\t");
+            }
+            System.out.println();
         }
     }
 }
