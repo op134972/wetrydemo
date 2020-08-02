@@ -22,7 +22,6 @@
         <module>wetry-metrics</module>
         <module>wetry-stresstest</module>
         <module>wetry-trvip</module>
-        <module>wetry-mybatis</module>
         <module>wetry-netty</module>
     </modules>
 
@@ -203,6 +202,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-properties-migrator</artifactId>
             <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>transmittable-thread-local</artifactId>
+            <version>2.11.4</version>
         </dependency>
 
     </dependencies>
