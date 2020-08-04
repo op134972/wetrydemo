@@ -5,7 +5,7 @@ import lc.model.ListNode;
 /**
  * Created by tangwc on 2019/3/5.
  */
-public class q2 {
+public class q2_ac {
 
     /**
      * 成功

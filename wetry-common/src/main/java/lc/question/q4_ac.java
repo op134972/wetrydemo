@@ -21,7 +21,7 @@ package lc.question;
  * <p>
  * 则中位数是 (2 + 3)/2 = 2.5
  */
-public class q4 {
+public class q4_ac {
 
     /**
      * 成功
