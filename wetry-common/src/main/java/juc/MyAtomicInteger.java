@@ -8,6 +8,8 @@ public class MyAtomicInteger {
 
     private volatile int val;
 
+    private volatile int lockState = 0;
+
     public int incrAndGet() throws InterruptedException {
         int ov;
         do {
@@ -17,9 +19,13 @@ public class MyAtomicInteger {
     }
 
     private boolean cas(int oldVal, int newVal) {
-        if (get() == oldVal) {
-            this.val = newVal;
-            return true;
+        if (lockState == 0) {
+            lockState = 1;
+            if (get() == oldVal) {
+                this.val = newVal;
+                lockState = 0;
+                return true;
+            }
         }
         return false;
     }

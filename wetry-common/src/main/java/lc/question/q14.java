@@ -14,6 +14,9 @@ public class q14 {
      * abc
      * ab
      *
+     * 一种骚操作：
+     * 先排序，再比较第一个和最后一个str就可以。
+     *
      */
     public String longestCommonPrefix(String[] strs) {
         int minLength = getMinLengh(strs);
