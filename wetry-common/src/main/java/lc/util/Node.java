@@ -15,4 +15,13 @@ public class Node {
         this.next = null;
         this.random = null;
     }
+
+    @Override
+    public String toString() {
+        return "Node{" +
+                "val=" + val +
+                ", next=" + next +
+                ", random=" + (random == null ? null : random.val) +
+                '}';
+    }
 }
