@@ -7,6 +7,11 @@
       <option name="url" value="http://m2.kanzhun-inc.com/nexus/content/groups/public" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="maven-restlet" />
+      <option name="name" value="Restlet Framework repository" />
+      <option name="url" value="http://maven.restlet.org" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Maven Central repository" />
       <option name="url" value="https://repo1.maven.org/maven2" />
@@ -22,9 +27,19 @@
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="central" />
+      <option name="url" value="http://central" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="maven-restlet" />
       <option name="name" value="Restlet Framework repository" />
       <option name="url" value="http://m2.kanzhun-inc.com/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="public-snapshots" />
+      <option name="name" value="public-snapshots" />
+      <option name="url" value="http://public-snapshots" />
     </remote-repository>
   </component>
 </project>
