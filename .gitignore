@@ -16,13 +16,7 @@
 .settings
 .springBeans
 .sts4-cache
-.classpath
-.project
-.settings
 target/
-*.iml
-.springBeans
-.DS_Store
 logs/
 *.file
 *.file.lock
@@ -35,10 +29,8 @@ disconf
 ### IntelliJ IDEA ###
 .idea
 *.iws
-*.iml
 *.ipr
 .idea/*.xml
-*.class
 
 ### NetBeans ###
 /nbproject/private/
