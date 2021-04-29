@@ -35,7 +35,7 @@ public class Provider {
         application.setName("dubboProvider");
 
         //注册配置信息
-        RegistryConfig registryConfig = new RegistrcyConfig();
+        RegistryConfig registryConfig = new RegistryConfig();
         ////host 和 端口配置在 zookeeper/conf/zoo.cfg文件中
         registryConfig.setAddress("127.0.0.1:2181");
         registryConfig.setProtocol("zookeeper");

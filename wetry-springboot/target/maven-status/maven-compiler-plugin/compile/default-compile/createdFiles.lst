@@ -1,2 +1,2 @@
-controller\SampleController.class
-Application.class
+app/controller/SampleController.class
+app/DemoApplication.class

@@ -1,3 +1,3 @@
-com\test\Comsumer.class
-com\test\ConsumerSpring.class
-com\test\TestConsumerAsync.class
+com/test/ConsumerSpring.class
+com/test/Comsumer.class
+com/test/TestConsumerAsync.class

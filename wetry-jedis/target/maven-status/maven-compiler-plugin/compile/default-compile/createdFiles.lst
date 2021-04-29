@@ -1,2 +1,4 @@
-redis\HyperLog.class
-redis\JedisTest.class
+redis/JedisMonitor.class
+redis/JedisMonitor$1.class
+redis/JedisTest.class
+redis/HyperLog.class

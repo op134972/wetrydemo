@@ -1,7 +1,7 @@
-com\test\ProviderApp.class
-com\test\impl\ApiTestImpl2.class
-com\test\impl\SpeakerImpl.class
-com\test\ProviderSpring.class
-com\test\Provider.class
-com\test\impl\ApiTestImpl.class
-com\test\protocol\MyProtocol.class
+com/test/Provider.class
+com/test/protocol/MyProtocol.class
+com/test/ProviderApp.class
+com/test/ProviderSpring.class
+com/test/impl/SpeakerImpl.class
+com/test/impl/ApiTestImpl2.class
+com/test/impl/ApiTestImpl.class
