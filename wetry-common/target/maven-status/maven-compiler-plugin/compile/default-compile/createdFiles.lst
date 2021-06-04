@@ -153,6 +153,7 @@ http/OkHttpTest$1.class
 cache/b_LRUMapTest.class
 lc/question/q560_.class
 lc/q4/q155_minStack.class
+timer/TimerTest.class
 rateLimit/RollingWindowFilter.class
 lc/question/q28.class
 thread/exchangeprint/ExchangePrintSemaphore2$1.class
@@ -162,6 +163,7 @@ lc/BreakAccount$Job.class
 demo1/Demo1.class
 cache/a_LRUMap.class
 lc/util/TreeNode.class
+timer/TimerTest$1.class
 caffeine/CachePolluteTest.class
 jdk/HashMapTest$1.class
 jvm/ThreadLocalMemLeakTest.class
@@ -223,6 +225,7 @@ lc/q4/q139.class
 lc/question/q70.class
 lc/q4/q179.class
 juc/thread/ThreadTest3Interrupt$1.class
+timer/TimerTest$2.class
 demo1/BM2.class
 caffeine/CachePolluteTest$2.class
 lc/q3/q98_非递归中序遍历$TreeNode.class
