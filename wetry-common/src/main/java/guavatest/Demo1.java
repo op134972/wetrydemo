@@ -45,8 +45,10 @@ public class Demo1 {
         //简化集合初始化
         ArrayList<Integer> integers = Lists.newArrayList(new Integer(1), new Integer(2));
         HashSet<Integer> integers1 = Sets.newHashSet(new Integer(1), new Integer(2));
-        ImmutableMap<String, Integer> map3 = ImmutableMap.of("", new Integer(1), "", new Integer(2));
+        ImmutableMap<String, Integer> map3 = ImmutableMap.of("1", new Integer(1), "1", new Integer(2));
 
+
+        System.out.println(map3.toString());
         //。。。
     }
 }

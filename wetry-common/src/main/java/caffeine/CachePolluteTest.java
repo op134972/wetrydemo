@@ -37,9 +37,9 @@ public class CachePolluteTest {
         //移除一个元素，再次获取
         listFromGCache.remove(0);
         System.out.println(listFromGCache.toString());
-        listFromGCache = gCache.getIfPresent("list");
+        List<Integer> newList = gCache.getIfPresent("list");
 
-        System.out.println("getFromCacheAgain:"+listFromGCache.toString());
+        System.out.println("getFromCacheAgain:" + newList.toString());
         System.out.println("Caffeine cache exists cache pollute risk...");
     }
 
@@ -61,13 +61,13 @@ public class CachePolluteTest {
         //移除一个元素，再次获取
         listFromGCache.remove(0);
         System.out.println(listFromGCache.toString());
-        listFromGCache = gCache.get("list", new Callable<List<Integer>>() {
+        List<Integer> newList = gCache.get("list", new Callable<List<Integer>>() {
             @Override
             public List<Integer> call() throws Exception {
                 return list;
             }
         });
-        System.out.println("getFromCacheAgain:"+listFromGCache.toString());
+        System.out.println("getFromCacheAgain:" + newList.toString());
         System.out.println("google cache exists cache pollute risk...");
     }
 }
